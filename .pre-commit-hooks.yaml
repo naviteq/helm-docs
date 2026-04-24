@@ -28,7 +28,7 @@
 - id: helm-docs-container-github
   args: []
   description: Uses the container image from the GHCR of 'helm-docs' to create documentation from the Helm chart's 'values.yaml' file, and inserts the result into a corresponding 'README.md' file.
-  entry: ghcr.io/naviteq/helm-docs:latest
+  entry: ghcr.io/naviteq/helm-docs:master
   files: (README\.md\.gotmpl|(Chart|requirements|values)\.yaml)$
   language: docker_image
   name: Helm Docs Container GHCR
