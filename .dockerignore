@@ -1,0 +1,27 @@
+.git
+.github
+.idea
+.vscode
+.DS_Store
+
+# Local build outputs
+helm-docs
+bin/
+dist/
+coverage.out
+*.coverprofile
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+tmp/
+
+# Repository content not needed for building the binary
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+code-of-conduct.md
+LICENSE
+example-charts/
+pkg/**/test-fixtures/
